@@ -1,16 +1,4 @@
-#@title **RDP**
-#@markdown  It takes 4-5 minutes for installation
-
-import os
-import subprocess
-
-#@markdown  Visit http://remotedesktop.google.com/headless and Copy the command after authentication
-
-CRP = "" #@param {type:"string"}
-
-#@markdown Enter a pin more or equal to 6 digits
-Pin = 123456 #@param {type: "integer"}
-
+#!/bin/bash
 
 class CRD:
     def __init__(self):
